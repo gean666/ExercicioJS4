@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>javascript4</title>
+    <h1>Exercício Javascript 4</h1>
+
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+</head>
+<body>
+    <div>
+
+        <button  onclick="myFunction()"><h1><FONT FACE="Arial" SIZE="8" COLOR="red">Começar</FONT></h1></button>
+
+
+
+        <script>
+            function myFunction()
+            {
+                var valpar;
+
+                var nome = prompt("Digite nome da pessoa:");
+
+                var val = prompt('Digite valor da compra');
+
+                var qpar = prompt('Numero de parcelas');
+
+                valpar = val / qpar;
+
+
+                document.write("O nome da pessoa é, " + nome);
+                document.write('<br>');
+
+                document.write("O valor da compra é, " + val, 'reais');
+                document.write('<br>');
+                document.write("A quantidade de parcelas é, " + qpar, 'parcelas');
+                document.write('<br>');
+
+
+
+                document.write("Valor da parcela é,  " + valpar, 'reais');
+
+            }
+
+        </script>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
